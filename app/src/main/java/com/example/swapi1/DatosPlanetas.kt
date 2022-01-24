@@ -28,7 +28,7 @@ class DatosPlanetas:AppCompatActivity() {
 
         val initialData = intent.getStringExtra(TAG_TEXT)
 
-        binding.bDescargar.setOnClickListener {
+        binding.Descargar.setOnClickListener {
             Toast.makeText(this, "$initialData", Toast.LENGTH_SHORT).show()
         }
     }
